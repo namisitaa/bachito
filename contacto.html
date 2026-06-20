@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head> 
+    <meta charset="UTF-8">
+    <title>Reportar Fuga y Contacto - Proyecto Agua</title>
+    <link rel="stylesheet" href="estiloo.css">
+</head>
+<body>
+ <header class="encabezado" role="banner">
+    <div class="contenedor">
+        <a href="index.html" class="logo">
+            <img src="imagen/logoagua.jpg" alt="Logotipo Cuidado del Agua" width="120" height="60">
+        </a>
+        <nav role="navigation">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="diagnostico.html">Diagnóstico</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </div>
+ </header>
+ 
+ <div class="presentacion">
+    <div class="contenedor">
+        <div class="introduccion-presentacion">
+            <h1>REPORTE DE INCIDENCIAS<br><span>Atención Inmediata</span></h1>
+        </div>
+        <img src="imagen/iconoreportes.jpg" alt="Evidencias y Reportes" width="150" height="100">
+    </div>
+ </div> 
+
+ <div class="bloque-contenido">
+    <div class="contenedor">
+        <main class="articulos" role="main">
+            <h2>Formulario de Reporte y Evidencias</h2>
+            <article>
+                <h1>¿Detectaste un desperdicio de agua?</h1>
+                <p>Usa este espacio para notificar al equipo técnico sobre llaves goteando, fluxómetros descompuestos o cualquier anomalía en los sanitarios del plantel.</p>
+                
+                <!-- Formulario extendido adaptado al estilo del sitio -->
+                <section class="suscripcion" style="background: none; padding: 20px 0; color: #333;">
+                    <form action="#" style="display: flex; flex-direction: column; gap: 15px; max-width: 500px; margin: 0;">
+                        <input type="text" name="nombre_reporte" placeholder="Tu nombre o grupo..." required style="width: 100%;">
+                        <input type="email" name="correo_reporte" placeholder="Tu correo escolar..." required style="width: 100%;">
+                        
+                        <select name="ubicacion" required style="padding: 15px; border-radius: 5px; border: 1px solid #ccc;">
+                            <option value="">Selecciona la ubicación de la fuga...</option>
+                            <option value="sanitarios_mujeres">Sanitarios de Mujeres</option>
+                            <option value="sanitarios_hombres">Sanitarios de Varones</option>
+                            <option value="otro">Otra zona del plantel</option>
+                        </select>
+                        
+                        <textarea name="descripcion" placeholder="Describe brevemente el problema (ej. Llave del tercer lavabo no cierra)..." required style="padding: 15px; border-radius: 5px; border: 1px solid #ccc; height: 100px; font-family: sans-serif;"></textarea>
+                        
+                        <input type="submit" value="Enviar Reporte de Fuga" style="width: auto; align-self: flex-start; cursor: pointer;">
+                    </form>
+                </section>
+            </article>
+        </main>
+
+        <aside class="complementary" role="complementary">
+            <h2>Próximas Actividades</h2>
+            <ul>
+                <li><a href="#">Taller de plomería básica </a></li>
+                <li><a href="#">Medición de consumo semanal </a></li>
+                <li><a href="#">Instalación de letreros </a></li>
+                <li><a href="#">Foro del Agua 2026 </a></li>
+            </ul>
+        </aside>
+    </div>
+ </div> 
+
+ <footer class="piedepagina" role="contentinfo">
+    <div class="contenedor">
+        <small>Copyright &copy; 2026 Proyecto Escolar - Cuidado del Agua</small>
+        <nav>
+            <ul>
+                <li><a href="#">Reglamento ambiental</a></li>
+                <li><a href="#">Preguntas frecuentes</a></li>
+                <li><a href="contacto.html">Reportar anomalía</a></li>
+            </ul>
+        </nav>
+    </div>
+ </footer>
+
+ <div class="social">
+    <a href="#" title="Facebook Proyectos"><img src="imagen/face.jpg" alt="facebook"></a>
+    <a href="#" title="Canal Educativo"><img src="imagen/you.jpg" alt="youtube"></a>
+    <a href="#" title="Twitter Escolar"><img src="imagen/twit.jpg" alt="twitter"></a>
+ </div>
+</body>
+</html>
